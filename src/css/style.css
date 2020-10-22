@@ -1,0 +1,60 @@
+.lc {
+    width: 100%;
+    /* height: 413px; */
+    margin: 0 auto;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.lc  .right {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    /* background:rebeccapurple; */
+}
+.lc  .right ul{
+    width: 100%;
+    background: green;
+}
+.lc  .right ul li {
+    /* background-color: #fff; */
+    border: 1px solid #575859;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+    width: 285px;
+    height: 344px;
+    -webkit-transition: box-shadow .2s ease-out;
+    transition: box-shadow .2s ease-out;
+}
+.lc  .right .next, .lc  .right .prev {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+    width: 71px;
+    height: 60px;
+    line-height: 62px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, .2);
+    font-family: simsun;
+    transition: all ease-in .4s;
+}
+.lc  .right .next {
+    left: 0px;
+}
+.lc  .right .prev {
+    right: 0px;
+}
+.lc  .right:hover .next {
+    opacity: 1;
+}
+.lc  .right:hover .prev {
+    opacity: 1;
+}

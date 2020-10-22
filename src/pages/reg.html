@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>DECATHLON|Login</title>
+    <link rel="stylesheet" href="../css/iconfont.min.css">
+    <link rel="stylesheet" href="../css/reg.min.css">
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+
+
+    <script src="../js/reg.min.js"></script>
+</head>
+<body>
+    <!-- head -->
+    <div id="head"></div>
+    <div id="login_container">
+        <div id="login">
+            <div id="login_top">
+                <h2>身份验证</h2>
+                <p>请输入用户名和密码登录，立即享受会员福利。</p>
+            </div>
+            <div id="login_bottom">
+                <div id="login_block">
+                    <div id="input_lang">
+                        <img src="../../dist/img/cn.svg" alt="">
+                    </div>
+                    <span></span>
+                    <input type="text" placeholder="邮箱" id="email">
+                </div>
+                <div id="validate_block">
+                    <button>验证手机号</button>
+                    <span>&gt;</span>
+                </div>
+            </div>
+        </div>
+        <div id="bottom_text">
+            <span>迪卡侬将尽一切可能保护您的个人信息!</span>
+        </div>
+    </div>
+    
+    <script>
+        $('#head').load('./public.html #header');
+    </script>
+</body>
+</html>

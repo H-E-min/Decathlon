@@ -1,0 +1,128 @@
+@import 'public';
+//head
+#head{
+    width: 1349px;
+    #header{
+        #inp{
+            #search_button::before{
+                bottom: 9px;
+            }
+            button{
+                img{
+                    bottom: 15px;
+                }
+            }
+        }
+    }
+}
+//login_container
+#login_container{
+    width: 100%;
+    height: 491px;
+    padding-top: 62px;
+    background: red;
+    background-image: linear-gradient(hsla(0,0%,100%,.6),hsla(0,0%,100%,.6)),url(../../dist/img/block_login-bg--lg.jpg);
+    background-size: cover;
+    position: relative;
+    #login{
+        width: 290px;
+        height: 160px;
+        background:#fff;
+        margin:0 auto;
+        padding:30px ;
+        #login_top{
+            margin: 0 auto;
+            @include Size(290px,56px,none,none);
+            h2{
+                color: #323233;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: -0.3px;
+                font-style: italic
+            }
+            p{
+                margin-top: 10px;
+                font-size: 12px;
+                color: #323233;
+                font-weight: 400;
+            }
+        }
+        #login_bottom{
+            @include Size(290px,95px,white,none);
+            margin: 0 auto;
+            padding-top: 15px;
+            #login_block{
+                @include Size(290px,40px,none,none);
+                // border: 1px solid   rgb(212, 215, 217) ;
+                position: relative;
+                #input_lang{
+                    @include Size(49px,40px,none,none);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    img{
+                        width: 25px;
+                        height: 18px;
+                        margin: 10px 12px;
+                    }
+                }
+                span{
+                    // display: inline-block;
+                    width: 1px;
+                    height: 25px;
+                    background: rgb(212, 215, 217) ;
+                    position: absolute;
+                    top: 7px;
+                    left: 48px;
+                }
+                #email{
+                    width: 214px;
+                    height: 26px;
+                    padding: 6px 12px 6px 64px;
+                    border: none;
+                    outline: none;
+                    border: 1px solid   rgb(212, 215, 217) ;
+                }
+            }
+            // #login_block:hover{
+            //     border: 1px solid  #0082C3 ;
+            // }
+            #validate_block{
+                margin-top: 12px;
+                @include Size(290px,40px,pink
+                ,none);
+                position: relative;
+                button{
+                    width: 290px;
+                    height: 41px;
+                    padding:11px 60px 11px 40px;
+                    background-color: #0082c3;
+                    border:none;              
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 700;
+                    outline: none;
+                    cursor: pointer;
+                }
+                span{
+                    font-size: 22px;
+                    color: white;
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                }
+            }
+            
+        }
+    }
+    //底部
+#bottom_text{
+    @include Size(100%,17px,none,none);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #323233 ;
+    font-size: 12px;
+}
+}
