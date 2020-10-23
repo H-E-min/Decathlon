@@ -59,7 +59,7 @@ img {
   margin-right: 10px;
 }
 
-#header a:nth-child(1) div span {
+#header a:nth-child(1) div span, #header a:nth-child(1) div #footer_bottom #copyright span a, #footer_bottom #copyright span #header a:nth-child(1) div a {
   display: block;
   width: 13px;
   height: 2px;
@@ -68,12 +68,12 @@ img {
   margin-bottom: 3px;
 }
 
-#header a:nth-child(1) div span:nth-of-type(2) {
+#header a:nth-child(1) div span:nth-of-type(2), #header a:nth-child(1) div #footer_bottom #copyright span a:nth-of-type(2), #footer_bottom #copyright span #header a:nth-child(1) div a:nth-of-type(2) {
   width: 15px;
   height: 2px;
 }
 
-#header a:nth-child(1) div span:nth-of-type(3) {
+#header a:nth-child(1) div span:nth-of-type(3), #header a:nth-child(1) div #footer_bottom #copyright span a:nth-of-type(3), #footer_bottom #copyright span #header a:nth-child(1) div a:nth-of-type(3), #footer_bottom #copyright span #header a:nth-child(1) div a:nth-of-type(4), #header a:nth-child(1) div #footer_bottom #copyright span a:nth-of-type(4), #header #footer_bottom #copyright span a:nth-child(1) div a:nth-of-type(4), #footer_bottom #copyright span #header a:nth-child(1) div a:nth-of-type(5), #header a:nth-child(1) div #footer_bottom #copyright span a:nth-of-type(5), #header #footer_bottom #copyright span a:nth-child(1) div a:nth-of-type(5) {
   width: 17px;
   height: 2px;
 }
@@ -220,6 +220,206 @@ img {
   z-index: -1;
 }
 
+#footer_top {
+  width: 100%;
+  height: 75px;
+  background: #0082C3;
+  color: none;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+#footer_top #ft_content {
+  margin: 0 auto;
+  padding-top: 16px;
+  vertical-align: middle;
+  width: 1180px;
+  height: 65px;
+  background: none;
+  color: none;
+}
+
+#footer_top #ft_content ul {
+  width: 1120px;
+  height: 35px;
+  background: none;
+  color: none;
+}
+
+#footer_top #ft_content ul li {
+  float: left;
+  width: 224px;
+  height: 100%;
+  text-align: center;
+}
+
+#footer_top #ft_content ul li a {
+  position: relative;
+}
+
+#footer_top #ft_content ul li a span img, #footer_bottom #copyright span #footer_top #ft_content ul li a a img {
+  width: 35px;
+  height: 35px;
+}
+
+#footer_top #ft_content ul li a span:nth-of-type(2), #footer_top #ft_content ul li a #footer_bottom #copyright span a:nth-of-type(2), #footer_bottom #copyright span #footer_top #ft_content ul li a a:nth-of-type(2) {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  width: 88px;
+  top: -10px;
+}
+
+#footer_bottom {
+  width: 100%;
+  height: auto;
+  background: #edeff1;
+  color: none;
+}
+
+#footer_bottom #fb_content {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 1180px;
+  height: 191px;
+  background: none;
+  color: none;
+}
+
+#footer_bottom #fb_content #fbc_left {
+  float: left;
+  width: 944px;
+  height: auto;
+  background: none;
+  color: none;
+  padding: 14px 20px 10px 20px;
+}
+
+#footer_bottom #fb_content #fbc_left #fbc_left_list {
+  float: left;
+  padding: 0px 15px;
+}
+
+#footer_bottom #fb_content #fbc_left #fbc_left_list h3 {
+  width: 196px;
+  height: 15px;
+  background: none;
+  color: #0082c3;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+
+#footer_bottom #fb_content #fbc_left #fbc_left_list a {
+  width: 100%;
+  height: 17px;
+  background: none;
+  color: #575859;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.1429px;
+  margin-top: 2px;
+}
+
+#footer_bottom #fb_content #fbc_right {
+  float: left;
+  width: 236px;
+  height: 165px;
+  background: none;
+  color: none;
+  text-align: center;
+}
+
+#footer_bottom #fb_content #fbc_right img {
+  width: 100px;
+  height: 100px;
+}
+
+#footer_bottom #fb_content #fbc_right span, #footer_bottom #fb_content #fbc_right #copyright span a, #footer_bottom #copyright span #fb_content #fbc_right a {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: #393939;
+}
+
+#footer_bottom #copyright {
+  margin: 0 auto;
+  width: 1140px;
+  height: 71px;
+  padding: 14px 20px 42px 20px;
+  text-align: right;
+}
+
+#footer_bottom #copyright span, #footer_bottom #copyright span a {
+  color: #323233;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.14px;
+}
+
+#footer_bottom #copyright .dzyyzz {
+  width: 41px;
+  height: 41px;
+  margin-top: 5px;
+}
+
+#footer_bottom #copyright a {
+  position: relative;
+}
+
+#footer_bottom #copyright a img {
+  width: 160px;
+  height: 41px;
+}
+
+#footer_bottom #copyright a span, #footer_bottom #copyright a span a, #footer_bottom #copyright span a a {
+  position: absolute;
+  top: 0px;
+  left: 47px;
+  color: #001b75;
+  font-size: 12px;
+}
+
+#footer_bottom #price_mentions {
+  width: 1180px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+#footer_bottom #price_mentions span, #footer_bottom #price_mentions #copyright span a, #footer_bottom #copyright span #price_mentions a {
+  color: #323233;
+  font-size: 12px;
+}
+
+#to_top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 64px;
+  height: 64px;
+  border-color: transparent transparent #0082c3;
+  border-style: solid;
+  border-width: 0 0 64px 64px;
+  display: none;
+}
+
+#to_top::before {
+  content: "▲";
+  position: absolute;
+  font-size: 12px;
+  bottom: -50px;
+  right: 11px;
+  color: #fff;
+}
+
 #head {
   width: 1349px;
 }
@@ -244,7 +444,7 @@ img {
 
 #login_container #login {
   width: 290px;
-  height: 160px;
+  height: 180px;
   background: #fff;
   margin: 0 auto;
   padding: 30px;
@@ -307,7 +507,7 @@ img {
   margin: 10px 12px;
 }
 
-#login_container #login #login_bottom #login_block span {
+#login_container #login #login_bottom #login_block span, #login_container #login #login_bottom #login_block #footer_bottom #copyright span a, #footer_bottom #copyright span #login_container #login #login_bottom #login_block a {
   width: 1px;
   height: 25px;
   background: #d4d7d9;
@@ -323,6 +523,13 @@ img {
   border: none;
   outline: none;
   border: 1px solid #d4d7d9;
+}
+
+#login_container #login #login_bottom p {
+  color: red;
+  padding-left: 50px;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 #login_container #login #login_bottom #validate_block {
@@ -347,7 +554,7 @@ img {
   cursor: pointer;
 }
 
-#login_container #login #login_bottom #validate_block span {
+#login_container #login #login_bottom #validate_block span, #login_container #login #login_bottom #validate_block #footer_bottom #copyright span a, #footer_bottom #copyright span #login_container #login #login_bottom #validate_block a {
   font-size: 22px;
   color: white;
   position: absolute;

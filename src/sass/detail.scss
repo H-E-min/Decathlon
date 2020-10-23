@@ -1,0 +1,19 @@
+@import 'public';
+#head{
+    width: 100%;
+    #header{
+        #inp{
+            #search_button::before{
+                bottom: 9px;
+            }
+            button{
+                img{
+                    bottom: 15px;
+                }
+            }
+        }
+    }
+}
+#main{
+    @include Size(100%,1089px,red,none);
+}

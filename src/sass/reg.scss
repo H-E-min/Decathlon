@@ -26,7 +26,7 @@
     position: relative;
     #login{
         width: 290px;
-        height: 160px;
+        height: 180px;
         background:#fff;
         margin:0 auto;
         padding:30px ;
@@ -88,6 +88,12 @@
             // #login_block:hover{
             //     border: 1px solid  #0082C3 ;
             // }
+            p{
+                color: red;
+                padding-left: 50px;
+                font-size: 12px;
+                margin-top: 5px;
+            }
             #validate_block{
                 margin-top: 12px;
                 @include Size(290px,40px,pink

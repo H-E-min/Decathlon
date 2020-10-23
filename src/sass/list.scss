@@ -1,0 +1,101 @@
+@import 'public';
+//head
+#head{
+    width: 100%;
+    #header{
+        #inp{
+            #search_button::before{
+                bottom: 9px;
+            }
+            button{
+                img{
+                    bottom: 15px;
+                }
+            }
+        }
+    }
+}
+// main
+#main{
+    overflow: hidden;
+    #left{
+        @include Size(20%,545px,pink,none);
+        float: left;
+        position: absolute;
+        top: 54px;
+        bottom:0px;
+    }
+    #right{
+        @include Size(80%,545px,red,none);
+        box-sizing: border-box;
+        float: right;
+        position: absolute;
+        // bottom: 417px;
+        bottom: 0px;
+        right: 0px;
+        top: 54px;
+        overflow: auto;
+        ul{
+            width: 100%;
+            li{
+                float: left;
+                @include Size(24.6%,300px,none,none);
+                border:1px solid rgb(230, 230, 230);
+                position: relative;
+                text-align: center;
+                .new_product{
+                    display: block;
+                    font-size: 14px;
+                    color: white;
+                    position: absolute;
+                    top: 15px;
+                    left: 15px;
+                    font-weight: 700;
+                    background: purple;
+                    width: 31px;
+                    height: 20px;
+                    padding: 1px;
+                    transform:rotate(-7deg);
+                }
+                .price_big{
+                    position: absolute;
+                    top: 25px;
+                    right: 15px;
+                    display: block;
+                    width: 60px;
+                    height: 23px;
+                    background: yellow;
+                    text-align: left;
+                }
+                .price_little{
+                    position: absolute;
+                    font-size: 12px;
+                    top: 26px;
+                    right: 23px;
+                }
+                img{
+                    width:146px;
+                    height: 146px;
+                    margin-top: 30px;
+                }
+                h5{
+                    margin-top: 15px;
+                }
+                p{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+// #footer
+#foot_top{
+   @include Size(100%,auto,none,none);
+   position: absolute;
+   bottom: 0px;
+}
+#footer_bottom{
+    @include Size(100%,418px,none,none);
+    position: absolute;
+    bottom: 0px;
+}

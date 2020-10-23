@@ -48,6 +48,7 @@ window.onload = function(){
 			$('#header').css('position','relative');
 		}
 	  })
+	  
 	  $('#to_top').click(function(){
 		  document.documentElement.scrollTop = document.body.scrollTop = 0;
 	  })

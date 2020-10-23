@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>迪卡侬</title>
+    <link rel="stylesheet" href="../css/iconfont.min.css">
+    <link rel="stylesheet" href="../css/list.min.css">
+    <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/list.min.js"></script>
 </head>
 <body>
-    
+    <div id="head"></div>
+    <div id="main">
+        <div id="left"></div>
+        <div id="right">
+            <ul>
+               <!--  <li>
+                    <span class="new_product">新品</span>
+                    <img src="../img/menuThumbnail_ice_skating.png" alt="">
+                    <span class="price_big">￥89</span>
+                    <span class="price_little">.90</span>
+                    <h5>WEDZE</h5>
+                    <p>男式滑雪保暖卫衣</p> 
+                </li>-->
+            </ul>
+        </div>
+    </div>
+    <div id="foot_top"></div>
+    <div id="foot_bottom"></div>
+    <div id="go_top"></div>
+    <script>
+        $('#head').load('./public.html #header');
+        $('#foot_top').load('./public.html #footer_top');
+        $('#foot_bottom').load('./public.html #footer_bottom');
+        $('#go_top').load('./public.html #to_top');
+    </script>
 </body>
 </html>

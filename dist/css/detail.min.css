@@ -421,7 +421,7 @@ img {
 }
 
 #head {
-  width: 1349px;
+  width: 100%;
 }
 
 #head #header #inp #search_button::before {
@@ -432,137 +432,9 @@ img {
   bottom: 15px;
 }
 
-#login_container {
+#main {
   width: 100%;
-  height: 491px;
-  padding-top: 62px;
+  height: 1089px;
   background: red;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../../dist/img/block_login-bg--lg.jpg);
-  background-size: cover;
-  position: relative;
-}
-
-#login_container #login {
-  width: 290px;
-  height: 160px;
-  background: #fff;
-  margin: 0 auto;
-  padding: 30px;
-}
-
-#login_container #login #login_top {
-  margin: 0 auto;
-  width: 290px;
-  height: 56px;
-  background: none;
   color: none;
-}
-
-#login_container #login #login_top h2 {
-  color: #323233;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: -0.3px;
-  font-style: italic;
-}
-
-#login_container #login #login_top p {
-  margin-top: 10px;
-  font-size: 12px;
-  color: #323233;
-  font-weight: 400;
-}
-
-#login_container #login #login_bottom {
-  width: 290px;
-  height: 95px;
-  background: white;
-  color: none;
-  margin: 0 auto;
-  padding-top: 15px;
-}
-
-#login_container #login #login_bottom #login_block {
-  width: 290px;
-  height: 40px;
-  background: none;
-  color: none;
-  position: relative;
-}
-
-#login_container #login #login_bottom #login_block #input_lang {
-  width: 49px;
-  height: 40px;
-  background: none;
-  color: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#login_container #login #login_bottom #login_block #input_lang img {
-  width: 25px;
-  height: 18px;
-  margin: 10px 12px;
-}
-
-#login_container #login #login_bottom #login_block span, #login_container #login #login_bottom #login_block #footer_bottom #copyright span a, #footer_bottom #copyright span #login_container #login #login_bottom #login_block a {
-  width: 1px;
-  height: 25px;
-  background: #d4d7d9;
-  position: absolute;
-  top: 7px;
-  left: 48px;
-}
-
-#login_container #login #login_bottom #login_block #email {
-  width: 214px;
-  height: 26px;
-  padding: 6px 12px 6px 64px;
-  border: none;
-  outline: none;
-  border: 1px solid #d4d7d9;
-}
-
-#login_container #login #login_bottom #validate_block {
-  margin-top: 12px;
-  width: 290px;
-  height: 40px;
-  background: pink;
-  color: none;
-  position: relative;
-}
-
-#login_container #login #login_bottom #validate_block button {
-  width: 290px;
-  height: 41px;
-  padding: 11px 60px 11px 40px;
-  background-color: #0082c3;
-  border: none;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  outline: none;
-  cursor: pointer;
-}
-
-#login_container #login #login_bottom #validate_block span, #login_container #login #login_bottom #validate_block #footer_bottom #copyright span a, #footer_bottom #copyright span #login_container #login #login_bottom #validate_block a {
-  font-size: 22px;
-  color: white;
-  position: absolute;
-  top: 5px;
-  right: 10px;
-}
-
-#login_container #bottom_text {
-  width: 100%;
-  height: 17px;
-  background: none;
-  color: none;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  color: #323233;
-  font-size: 12px;
 }
